@@ -1,0 +1,95 @@
+﻿  Moc'ing qcustomplot.h...
+  Moc'ing QISPCustomPlot.h...
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Performing Custom Build Tools
+  Moc'ing ISPTiltCorrection.h...
+  Moc'ing ISPSpaceCorrection.h...
+  moc_ISPCC.cpp
+  moc_ISPFFC1.cpp
+  moc_ISPFFC2.cpp
+  moc_ISPFocusCorrection.cpp
+  moc_ISPMC.cpp
+  moc_ISPSpaceCorrection.cpp
+  moc_ISPTiltCorrection.cpp
+  moc_ISPWB.cpp
+  moc_qcustomplot.cpp
+  moc_QISPCustomPlot.cpp
+  ISPCC.cpp
+  ISPDockWidget.cpp
+  ISPFFC1.cpp
+  ISPFFC2.cpp
+  ISPFocusCorrection.cpp
+ISPFocusCorrection.cpp(146): error C2039: 'GetXValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(167): error C2039: 'GetXValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(171): error C2039: 'GetXValue2': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(171): error C2227: left of '->size' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(176): error C2039: 'GetYValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(176): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(194): error C2039: 'GetXValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(194): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(200): error C2039: 'GetXValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(200): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(212): error C2039: 'GetYValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(212): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(218): error C2039: 'GetYValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(218): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(230): error C2039: 'GetYValue2': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(230): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(236): error C2039: 'GetYValue2': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(236): error C2227: left of '->at' must point to class/struct/union/generic type
+ISPFocusCorrection.cpp(241): error C2039: 'GetXValue1': is not a member of 'CameraWidget'
+  D:\WorkCode\QTestAll-V1.0\CameraWidget\CameraWidget.h(30): note: see declaration of 'CameraWidget'
+ISPFocusCorrection.cpp(241): error C2227: left of '->at' must point to class/struct/union/generic type
+  ISPMC.cpp
+  ISPSpaceCorrection.cpp
+  ISPTiltCorrection.cpp
+  ISPToolBox.cpp
+  ISPWB.cpp
+  Generating Code...
+  Compiling...
+  qcustomplot.cpp
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  qcustomplot.cpp(20927): note: see reference to function template instantiation '_OutIt *std::copy<const QCPGraphData*,QCPGraphData*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=QCPGraphData *,
+              _InIt=const QCPGraphData *
+          ]
+E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2568): warning C4996: 'std::copy_backward::_Unchecked_iterators::_Deprecate': Call to 'std::copy_backward' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2568): note: see declaration of 'std::copy_backward::_Unchecked_iterators::_Deprecate'
+  d:\workcode\qtestall-v1.0\qisp\qcustomplot.h(3192): note: see reference to function template instantiation '_BidIt2 *std::copy_backward<QCPGraphData*,QCPGraphData*>(_BidIt1,_BidIt1,_BidIt2)' being compiled
+          with
+          [
+              _BidIt2=QCPGraphData *,
+              _BidIt1=QCPGraphData *
+          ]
+  d:\workcode\qtestall-v1.0\qisp\qcustomplot.h(3182): note: while compiling class template member function 'void QCPDataContainer<QCPGraphData>::preallocateGrow(int)'
+  d:\workcode\qtestall-v1.0\qisp\qcustomplot.h(2741): note: see reference to function template instantiation 'void QCPDataContainer<QCPGraphData>::preallocateGrow(int)' being compiled
+  d:\workcode\qtestall-v1.0\qisp\qcustomplot.h(2734): note: while compiling class template member function 'void QCPDataContainer<QCPGraphData>::add(const DataType &)'
+          with
+          [
+              DataType=QCPGraphData
+          ]
+  qcustomplot.cpp(20259): note: see reference to function template instantiation 'void QCPDataContainer<QCPGraphData>::add(const DataType &)' being compiled
+          with
+          [
+              DataType=QCPGraphData
+          ]
+  d:\workcode\qtestall-v1.0\qisp\qcustomplot.h(5225): note: see reference to class template instantiation 'QCPDataContainer<QCPGraphData>' being compiled
+  QISPCustomPlot.cpp
+  Generating Code...
